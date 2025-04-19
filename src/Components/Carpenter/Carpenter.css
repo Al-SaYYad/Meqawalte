@@ -1,0 +1,112 @@
+.main-carpenter .hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 405px;
+  overflow: hidden;
+}
+.main-carpenter .hero-section .bg {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.main-carpenter .hero-section .bg img {
+  width: 100%;
+}
+.main-carpenter .hero-section h1 {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 96px;
+  font-weight: 600;
+  color: var(--primary-color-app);
+  background-color: #ffffff73;
+}
+.main-carpenter .container {
+  min-height: 406px;
+  padding: 60px 0;
+  background-color: #f4ecdf;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.main-carpenter .container .card {
+  width: 436px;
+  height: 438px;
+  border-radius: 12px;
+  border: 1px solid #5f99ad;
+  background-color: #5f99ad;
+}
+.main-carpenter .container .card img {
+  width: 100%;
+  height: 245px;
+  object-fit: cover;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.main-carpenter .container .card .card-body {
+  padding: 0 12px;
+}
+.main-carpenter .card .card-body h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-white);
+}
+.main-carpenter .card .card-body p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 6px;
+  color: #cfc7bf;
+}
+.main-carpenter .card-body .rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+.main-carpenter .card-body .rate .stars {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.main-carpenter .card-body .stars svg {
+  width: 18px;
+  height: 18px;
+  fill: #ffc17c;
+}
+.main-carpenter .card .rate .bi-star-half {
+  transform: scaleX(-1);
+}
+.main-carpenter .card-body .rate h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e20303;
+}
+.main-carpenter .card-foot {
+  display: flex;
+  justify-content: space-between;
+}
+.main-carpenter .card-foot .location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #e20303;
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-carpenter .card-foot .location svg {
+  width: 26px;
+  height: 26px;
+}
+.main-carpenter .card-foot button {
+  border-radius: 25px;
+  border: none;
+  color: #e20303;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #5f99ad, #693381);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.4);
+}

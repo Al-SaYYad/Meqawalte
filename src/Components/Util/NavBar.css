@@ -1,0 +1,88 @@
+.main-nav-bar {
+  background-color: #f4ecdf;
+}
+.main-nav-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-nav-bar .logo {
+  width: 128px;
+  height: 72px;
+}
+.main-nav-bar .logo img {
+  width: 100%;
+  height: 100%;
+}
+.main-nav-bar .navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.main-nav-bar .navbar-nav .link a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--primary-color-app);
+}
+.main-nav-bar .navbar-nav .link svg {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+.main-nav-bar .services {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.main-nav-bar .services .icon {
+  width: 30px;
+  height: 30px;
+}
+.main-nav-bar .services .icon svg {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.main-nav-bar .services .profile {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.main-nav-bar .services .profile svg,
+.main-nav-bar .services .profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.popup-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  min-width: 280px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.popup-content h3 {
+  margin-bottom: 1rem;
+}
+.popup-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--secondary);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.popup-content button:hover {
+  background-color: var(--primary-color-app);
+}

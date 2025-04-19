@@ -1,0 +1,23 @@
+.main-about-us h1 {
+  text-align: center;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: var(--primary);
+}
+.main-about-us h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.main-about-us .desc {
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #ffffff66;
+}
+.main-about-us .desc p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+}

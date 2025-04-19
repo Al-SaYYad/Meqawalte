@@ -1,0 +1,106 @@
+.main-home .hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 73vh;
+  gap: 50px;
+}
+.main-home .hero-section .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.main-home .hero-section .bg img {
+  width: 100%;
+}
+.main-home .hero-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: var(--primary-color-app);
+}
+.main-home .hero-section .search {
+  width: 55%;
+  position: relative;
+  z-index: 1;
+}
+.main-home .hero-section .search select {
+  width: 100%;
+  background-color: #5f99ad9c;
+  border-radius: 22px;
+  line-height: 50px;
+  padding: 10px 30px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+.main-home .hero-section .categories {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.main-home .hero-section .categories .cate {
+  font-size: 36px;
+  font-weight: 400;
+  padding: 10px 35px;
+  border-radius: 22px;
+  color: var(--primary-color-app);
+  background-color: #f4ecdf;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-home .hero-section .categories .cate:hover {
+  background-color: #5f99ada1;
+}
+.main-home .services {
+  padding: 80px 0;
+  background-color: #f4ecdf;
+}
+.main-home .services h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--primary-color-app);
+  text-align: center;
+  margin-bottom: 80px;
+}
+.main-home .items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.main-home .items a {
+  all: unset;
+  cursor: pointer;
+}
+.main-home .items .item {
+  min-width: 332px;
+  height: 289px;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.main-home .items .item img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.main-home .items .item h3 {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97%;
+  text-align: center;
+  background-color: #f4ecdfd1;
+  padding: 20px 0;
+  border-bottom-right-radius: 25px;
+}

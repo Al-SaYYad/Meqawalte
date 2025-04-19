@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  
+}
+button:active {
+  scale: 0.9;
+  transition: 0.3s;
+}
+/* My Classes */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+:root {
+  --primary: #11243c;
+  --secondary: #c56a3d;
+  --text-white: #e1eaf1;
+  --primary-color-app: #693381;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter_24pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter_24pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter_24pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* Phone media */
+@media (max-width: 600px) {
+  .myContainer {
+    padding: 0;
+  }
+}
