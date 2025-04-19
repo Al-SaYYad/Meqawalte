@@ -9,7 +9,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 
 // Lazy Components
 const IntroHomePage = lazy(() => import("./Pages/IntroHomePage/IntroHomePage"));
-const Login = lazy(() => import("./Components/Auth/Login/login"));
+const Login = lazy(() => import("./Components/Auth/Login/Login"));
 const IntroHome = lazy(() => import("./Components/IntroHome/IntroHome"));
 const Register = lazy(() => import("./Components/Auth/Register/Register"));
 const AddEquipment = lazy(() =>
