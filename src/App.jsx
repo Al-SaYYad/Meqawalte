@@ -6,6 +6,7 @@ import ProtectedRoute from "./Components/Auth/ProtectedRoute";
 import Loader from "./Components/Loader/Loader";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import AddBuildingTools from "./Components/AddEquipment&BuildingTools/AddBuildingTools";
 
 // Lazy Components
 const IntroHomePage = lazy(() => import("./Pages/IntroHomePage/IntroHomePage"));
@@ -13,7 +14,7 @@ const Login = lazy(() => import("./Components/Auth/Login/Login"));
 const IntroHome = lazy(() => import("./Components/IntroHome/IntroHome"));
 const Register = lazy(() => import("./Components/Auth/Register/Register"));
 const AddEquipment = lazy(() =>
-  import("./Components/AddEquipment&BuilingTools/AddEquipment")
+  import("./Components/AddEquipment&BuildingTools/AddEquipment")
 );
 const HomePage = lazy(() => import("./Pages/Home/HomePage"));
 const Home = lazy(() => import("./Components/Home/Home"));
@@ -39,9 +40,11 @@ const App = () => {
               <Route path="contact-us" element={<ContactUs />} />
               <Route path="login" element={<Login />} />
               <Route path="register" element={<Register />} />
-              {["add-equipment", "construction-materials"].map((path) => (
-                <Route key={path} path={path} element={<AddEquipment />} />
-              ))}
+              <Route path="add-equipment" element={<AddEquipment />} />
+              <Route
+                path="construction-materials"
+                element={<AddBuildingTools />}
+              />
             </Route>
             <Route
               path="/home/*"

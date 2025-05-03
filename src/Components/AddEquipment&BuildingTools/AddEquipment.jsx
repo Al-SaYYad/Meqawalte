@@ -5,7 +5,7 @@ import {
   GetEquipmentCategories,
   CreateEquipment,
 } from "../../API/CreateEquipment";
-import "./AddEquipment.css";
+import "./AddEquipment&AddBuildingTools.css";
 
 const AddEquipment = () => {
   const [photoUploaded, setPhotoUploaded] = useState(false);
