@@ -58,7 +58,25 @@ const Carpenter = () => {
             <img src={`${BASE_URL}${worker.profile_image}`} alt="Card Image" />
             <div className="card-body">
               <h3>{`${worker.first_name} ${worker.last_name}`}</h3>
-              <p>{`عمال / ${worker.worker_specialization}`}</p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  marginTop: "6px",
+                }}
+              >
+                <p>{`عمال / ${worker.worker_specialization}`}</p>
+                <span
+                  style={{
+                    fontSize: "15px",
+                    fontWeight: 500,
+                    color: "#cfc7bf",
+                  }}
+                >
+                  رقم الهاتف: {worker.phone}
+                </span>
+              </div>
               <div className="rate">
                 <div className="stars">
                   {[...Array(4)].map((_, i) => (
